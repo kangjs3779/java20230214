@@ -1,4 +1,4 @@
-package ch03.lecture.p01arithmetic;
+package ch03.lecture.p01arithmetic.example;
 
 public class C08_3CheckQuestion {
 	public static void main(String[] args) {
