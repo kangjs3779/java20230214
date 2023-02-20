@@ -20,5 +20,6 @@ public class C04Index {
 		String str3 = "hdml";
 		System.out.println(str3.indexOf("tm"));
 		System.out.println(str3.indexOf("mt"));
+		System.out.println(str3.indexOf("c"));
 	}
 }
