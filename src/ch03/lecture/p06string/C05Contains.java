@@ -10,12 +10,13 @@ public class C05Contains {
 		String str1 = """
 				동해물과 백두산이
 				마르고 닳다록
+				아아아
 				""";
 		
 		boolean res1 = str1.contains("해물");
 		System.out.println(res1);
 		
-		boolean res2 = str1.contains("해tks물");
+		boolean res2 = str1.contains("아");
 		System.out.println(res2);
 	}
 }

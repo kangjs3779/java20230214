@@ -10,11 +10,12 @@ public class C03CharAt {
 		System.out.println("길이: " + str1.length());
 		//0부터 시작함
 		
-		char c1 = str1.charAt(0);
+		int a = 0;
+		char c1 = str1.charAt(a);
 		System.out.println(c1);
-		System.out.println(str1.charAt(2));
-		System.out.println(str1.charAt(5));
-		System.out.println(str1.charAt(str1.length()-1));
+//		System.out.println(str1.charAt(2));
+//		System.out.println(str1.charAt(5));
+//		System.out.println(str1.charAt(str1.length()-1));
 		//마지막 글자의 인덱스는 언제나 전체길이에서 -1과 같음
 	}
 }

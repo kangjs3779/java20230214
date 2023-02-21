@@ -2,13 +2,15 @@ package ch03.lecture.review;
 
 public class review0217 {
 	public static void main(String[] args) {
-		String a = "일이삼사오육칠팔구십";
-		int x = a.length();
-		System.out.println(x);
+		String str1 = "I AM HAPPY";
+		String str2 = "i am happy";
+		String a = str1.toLowerCase();
+		String b = str2.toUpperCase();
 		
-		char x2 = a.charAt(5);
-		System.out.println(x2);
-		
-		System.out.println(a.charAt(a.length()-a.length()));
+//		System.out.println("str1번 : " + str1);
+//		System.out.println("str2번 : " + str2);
+		System.out.println("대 -> 소 : " + a);
+		System.out.println("소 -> 대 : " + b);
+				
 	}
 }
