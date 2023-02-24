@@ -4,6 +4,7 @@ public class C01Null {
 	public static void main(String[] args) {
 		int[] arr1 = new int[] {1, 2};
 		//arr1은 객체 값을 저장한 주소를 가지고 있는데
+	
 		arr1 = null;
 		//참조하는 객체 없음
 		//null이라는 값으로 대체되었다
