@@ -1,4 +1,4 @@
-package ch06.exercise.exam15;
+package ch06.excercise.exam15;
 
 public class MemberService {
 	boolean login(String id, String password) {
