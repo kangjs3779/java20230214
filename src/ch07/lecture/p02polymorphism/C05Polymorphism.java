@@ -29,7 +29,7 @@ class Bow extends Weapon {
 }
 
 class Hero {
-	public Weapon weapon;
+	public Weapon weapon;//클래스 타입의 변수를 만듦
 	
 	public void button1() {
 		weapon.attack();
