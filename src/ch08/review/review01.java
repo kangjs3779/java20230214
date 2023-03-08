@@ -2,30 +2,55 @@ package ch08.review;
 
 public class review01 {
 	public static void main(String[] args) {
-		Dog dog1 = new Dog();
-		Pet pet = dog1;
-		Dog dog2 = pet;
 		
-		Pet p = new Pet();
+		Train.hand2();
+		Train.stop2();
+		
+//		Dog dog = new Dog();
+//		Cat cat = new Cat();
+//		
+//		dog.hand1();
+//		dog.stop1();
+//		
+//		cat.hand1();
+//		cat.stop1();
+		
+
 	}
 }
 
+class Dog implements Train{}
 
-class Dog implements Pet, Animal{
+class Cat implements Train{}
+
+interface Train {	
+	//instance method
+	public default void hand1() {
+		System.out.println("손을 내민다");
+		common1();
+	}
 	
-	@Override
-	public void hand() {
-		System.out.println("오른손을 준다");
+	public default void stop1() {
+		System.out.println("기다린다");
+		common1();
+	}
+
+	private void common1() {
+		System.out.println("간식을 먹는다");
+	}
+	
+	//public static method
+	
+	public static void hand2() {
+		System.out.println("손 훈련시키는 방법");
+		common2();
+	}
+	public static void stop2() {
+		System.out.println("기다려 훈련시키는 방법");
+		common2();
+	}
+
+	private static void common2() {
+		System.out.println("훈련반복하기");
 	}
 }
-
-class Wolf {}
-
-class Cat implements Pet{
-	@Override
-	public void hand() {
-		System.out.println("왼손을 준다");
-	}
-}
-
-class Tiger {}
