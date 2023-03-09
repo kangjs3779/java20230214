@@ -25,8 +25,8 @@ class Review {
 	
 	public void print_review() {
 		System.out.println("맛 :" + taste);
-		System.out.println("양 :" + taste);
-		System.out.println("배달시간 :" + taste);
+		System.out.println("양 :" + amount);
+		System.out.println("배달시간 :" + deliver_time);
 		System.out.println();
 	}
 }
