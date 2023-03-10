@@ -8,6 +8,10 @@ public class UtileExample {
 		
 		ChildPair<String, Integer> childPair = new ChildPair<>("홍삼원", 20);
 		Integer childAge = Util.getValue(childPair, "홍삼순");
-		System.out.println(chidAge);
+		System.out.println(childAge);
+		
+		OtherPair<String, Integer> otherPair = new OtherPair<>("홍삼원", 20);
+		int otherAge = Util.getVlaue(otherPair, "홍삼원");
+		System.out.println(otherAge);
 	}
 }
