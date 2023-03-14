@@ -2,6 +2,8 @@ package ch16.lecture.p03reference;
 
 public class C03MethodReference {
 	public static void main(String[] args) {
+		//인스턴스 메소드 참조
+		//reference to an instance method of a particular object
 		MyInterface04 o1 = a -> System.out.println(a);
 		//람다로 만들었음
 		
