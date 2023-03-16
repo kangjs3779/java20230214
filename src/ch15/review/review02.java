@@ -49,17 +49,17 @@ public class review02 {
 		//무슨 타입이든 두개의 파라미터는 같은 타입이라는 거지
 		//재정의를 위해서는 class가 필요함. 
 		//풀어서 쓰면 (익명개체로)
-		Comparator o1 = new Comparator() {
-			@Override
-			public void compare(Person02 a, Person02 b) {
-				a.getAge() - b.getAge();
-			}
-		};
-		
-		Comparator o2 = new MyClass();
-		class MyClass {
-			
-		}
+//		Comparator o1 = new Comparator() {
+//			@Override
+//			public void compare(Person02 a, Person02 b) {
+//				a.getAge() - b.getAge();
+//			}
+//		};
+//		
+//		Comparator o2 = new MyClass();
+//		class MyClass {
+//			
+//		}
 		//getAge는 int타입의 age를 리턴하니까
 		//T는 int라는 것을 추론할 수 있음
 		

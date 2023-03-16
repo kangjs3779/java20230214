@@ -1,4 +1,4 @@
-package ch15.lecture.p04map;
+	package ch15.lecture.p04map;
 
 import java.util.*;
 
@@ -12,7 +12,7 @@ public class C04Map {
 		
 		//entry 추가 두개의 파라미터를 받음
 		map.put("kang", "slamdunk");
-		map.put("serly", "avatar");
+		map.put("serly", "navatar");
 		map.put("maverick", "topgun");
 		
 		//entry 개수
