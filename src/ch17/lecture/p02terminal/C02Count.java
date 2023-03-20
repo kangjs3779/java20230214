@@ -22,7 +22,7 @@ public class C02Count {
 		
 		long count4 = list.stream()
 				.map(s -> s + s)
-				.filter(s -> s.starsWitch("C"))
+				.filter(s -> s.startsWith("C"))
 				.count();
 		System.out.println(count4);
 	}
