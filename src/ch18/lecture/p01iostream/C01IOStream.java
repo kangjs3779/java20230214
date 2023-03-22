@@ -10,6 +10,6 @@ public class C01IOStream {
 		//바이트단위인풋스트림 : InputStream
 		//바이트단위아웃풋스트림 : OutputStream
 		//문자다누이인풋 스트림 : reader
-		//문자단위 아웃풋 스트림 : sriter
+		//문자단위 아웃풋 스트림 : writer
 	}
 }
