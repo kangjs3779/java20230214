@@ -3,25 +3,17 @@ package ch18.review;
 import java.io.*;
 
 public class R01 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 		
-		OutputStream os = null;
-		try {
-			os = new FileOutputStream("output/putput.txt");
+		OutputStream os = new FileOutputStream("");
+		
+		try(os) {
+			
 			os.write(1);
 			os.flush();
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-			
-		} finally {
-			if(os != null) {
-				try {
-					os.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
 			
 		}
 	}

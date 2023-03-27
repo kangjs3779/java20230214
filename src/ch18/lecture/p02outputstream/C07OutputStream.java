@@ -6,7 +6,7 @@ public class C07OutputStream {
 	public static void main(String[] args) {
 		try (var os = new FileOutputStream("output/output7.txt")) {
 			//한 바이트 쓰기
-			os.write(30);1
+			os.write(30);
 			//아무리 큰 수가 있어도 한바이트만 쓰고 나머지 세바이트는 버려진다
 			
 			//여러바이트 쓰기

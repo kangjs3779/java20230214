@@ -19,7 +19,7 @@ public class C01InputStream {
 			System.out.println(is.read());
 			System.out.println(is.read());
 			//3바이트의 크기라서 세번 읽을 수 있음
-			
+
 			System.out.println(is.read());// -1
 			System.out.println(is.read());// -1
 			//네번째를 읽으면 어떻게 될까??
